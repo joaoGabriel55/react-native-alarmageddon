@@ -247,6 +247,16 @@ Returns a subscription object with a `remove()` method to unsubscribe.
 - **iOS**: This library is not compatible with iOS.
 - **Background Restrictions**: Some device manufacturers (Samsung, Xiaomi, Huawei, etc.) may kill background processes. Users may need to disable battery optimization for your app.
 
+## Playground (only Android supported)
+
+A simple example app is provided to demonstrate the library's functionality.
+
+```bash
+cd example-app
+npx expo prebuild --platform android
+npm run android
+```
+
 ## Troubleshooting
 
 ### Alarms not triggering on some devices

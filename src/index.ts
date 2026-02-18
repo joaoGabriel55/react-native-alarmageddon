@@ -211,4 +211,3 @@ const RNAlarmModule = {
 };
 
 export default RNAlarmModule;
-export { RNAlarmModule };
